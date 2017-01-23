@@ -1,3 +1,3 @@
 # cpractice
-
-This is a c practice REPO for URCE IT 2 Students
+## This is Anusha
+This is a c practice REPO for * Anusha *
