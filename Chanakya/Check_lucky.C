@@ -5,15 +5,24 @@ void main()
  printf("Enter n:\n");
  scanf("%d",&n);
  a=add(n);
+  if(a>9)
+  {
+	 b=add(a);
+	 if(b==9)
+	 {
+	  printf("Is a Lucky Number");
+	 }
+	 else
+	 {
+	  printf("Not a lucky number");
+	 }
+ }
   if(a==9)
   {
     printf("The lucky number is:%d\n",n);
   }
-  else
-  {
-	  printf("not a lucky number\n");
-  }
 
+getch();
 }
 int add(int x)
 {
@@ -23,6 +32,7 @@ int add(int x)
     s=s+(x%10);
     x=x/10;
   }
-  
+
   return s;
 }
+
