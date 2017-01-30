@@ -1,28 +1,32 @@
 #include<stdio.h>
 void main()
 {
- int n,a,b;
- printf("Enter n:\n");
+ int n,a,b,l;
+ printf("Enter Number:\n");
  scanf("%d",&n);
- a=add(n);
-  if(a>9)
+ printf("Enter Lucky Number:\n");
+scanf("%d",&l);
+  a=add(n);
+  if(a>l)
   {
 	 b=add(a);
-	 if(b==9)
+	 if(b==l)
 	 {
-	  printf("Is a Lucky Number");
+	  printf("It is a Lucky Number :%d\n",l);
 	 }
 	 else
 	 {
-	  printf("Not a lucky number");
+	  printf("Not a lucky number\nCorrect Lucky number is:%d\n",b);
 	 }
  }
-  if(a==9)
+  if(a==l)
   {
-    printf("The lucky number is:%d\n",n);
+    printf("It is a Lucky Number: %d\n\n",l);
   }
 
-getch();
+
+
+
 }
 int add(int x)
 {
@@ -34,5 +38,7 @@ int add(int x)
   }
 
   return s;
+
 }
+
 
