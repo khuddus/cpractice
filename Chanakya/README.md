@@ -9,3 +9,7 @@ Executed The Following programs
 #Second task
 
 >Submission date : 06/02/2017
+
+#Third task
+
+>Updated program on printing 0 to 100 numbers without using any loop
