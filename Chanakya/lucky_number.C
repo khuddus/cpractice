@@ -9,7 +9,7 @@ void main()
   {
 	 b=add(a);
 	 if(b==9)
-	 {printf("the number: %d\n",i);}
+	 {printf("the number is: %d\n",i);}
  }
   if(a==9)
   {
