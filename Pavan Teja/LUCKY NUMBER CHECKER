@@ -73,7 +73,7 @@ h1:after {
 }
 
 /* =========================================
-Log in form
+lucky number checker 
 ========================================= */
 #fade-box {
   animation: input-entry 3s ease-in;
